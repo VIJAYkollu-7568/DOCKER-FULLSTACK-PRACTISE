@@ -3,10 +3,10 @@ services:
     image: mysql:8
     container_name: mysql-db
     environment:
-      MYSQL_ROOT_PASSWORD: docker
+      MYSQL_ROOT_PASSWORD: VIJAY2005
       MYSQL_DATABASE: invent_db
     ports:
-      - "3307:3306"
+      - "3309:3306"
     volumes:
       - mysql_data:/var/lib/mysql
     networks:
