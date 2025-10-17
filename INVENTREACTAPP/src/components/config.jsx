@@ -1,5 +1,5 @@
 const config = {
-  BASE_URL: "http://localhost:2025/api/inventory",
+  BASE_URL: "http://localhost:2000/api/inventory",
 };
 
 export default config;
