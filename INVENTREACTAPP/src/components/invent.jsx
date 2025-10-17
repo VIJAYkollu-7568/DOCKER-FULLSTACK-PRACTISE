@@ -112,7 +112,7 @@ const Invent = () => {
 
       <div className="invent-list">
         {items.length === 0 ? (
-          <p>No items found.</p>
+          <p>No items found .</p>
         ) : (
           <table>
             <thead>
