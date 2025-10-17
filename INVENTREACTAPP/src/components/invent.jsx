@@ -86,7 +86,7 @@ const Invent = () => {
         <input
           type="text"
           name="category"
-          placeholder="Category"
+          placeholder="Category "
           value={form.category}
           onChange={handleChange}
           required
