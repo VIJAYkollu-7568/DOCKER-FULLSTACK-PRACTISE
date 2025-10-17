@@ -16,7 +16,7 @@ services:
     image: vijay32991/inventdocker-backend:latest
     container_name: springboot
     ports:
-      - "2025:2000"
+      - "2025:5000"
     depends_on:
       - mysqldb
     restart: on-failure
@@ -27,7 +27,7 @@ services:
     image: vijay32991/inventdocker-frontend:latest
     container_name: react
     ports:
-      - "3000:80"
+      - "3002:80"
     depends_on:
       - backend
     restart: on-failure
